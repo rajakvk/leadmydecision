@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+}

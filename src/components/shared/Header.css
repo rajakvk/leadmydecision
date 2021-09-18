@@ -1,0 +1,7 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.logo a { font-size: 44px; cursor: pointer; text-decoration: none; }
+nav ul li { display: inline-block; margin-right: 20px; }

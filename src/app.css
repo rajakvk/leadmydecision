@@ -1,0 +1,13 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+main { flex: 100%; }
+.chosen {
+  background-color: green;
+}

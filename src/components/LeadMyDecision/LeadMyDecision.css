@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.this-box, .that-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  width: 500px;
+  height: 250px;
+  background-color: lightgray;
+}
+.this-box {
+  margin-right: 10px;
+}
+.selected { background-color: red; }
+.decisions-container {
+  display: flex;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.decision-button {
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 10em;
+  background-color: green;
+  color: white;
+}
+@media (min-width: 780px) {
+  .this-box, .that-box {
+    height: 500px;
+  }
+}
