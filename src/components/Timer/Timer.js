@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Timer.css';
+import * as styles from './Timer.module.css';
 
 const Timer = ({choose, chosen, setChosen, setThisSelected, setThatSelected}) => {
   let timer;
@@ -34,7 +34,7 @@ const Timer = ({choose, chosen, setChosen, setThisSelected, setThatSelected}) =>
   }, [counter]);
 
   return (
-    <div className="timer-container">
+    <div className={styles.timerContainer}>
       <button 
         onClick={resetTimer}>
           Start
